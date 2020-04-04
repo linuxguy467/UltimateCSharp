@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{20BF64F9-0ED3-4C98-9C5A-7B98512337E6}</ProjectGuid>
+    <ProjectGuid>{62AB82D1-010D-473F-9F1D-F86A8A321197}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpUltimate</RootNamespace>
-    <AssemblyName>CSharpUltimate</AssemblyName>
+    <RootNamespace>PrimitiveTypes</RootNamespace>
+    <AssemblyName>PrimitiveTypes</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HelloWorld.cs" />
+    <Compile Include="Operators.cs" />
+    <Compile Include="Variables.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypeConversion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
